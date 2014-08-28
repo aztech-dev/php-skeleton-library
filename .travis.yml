@@ -10,7 +10,7 @@ php:
 before_script:
   - composer selfupdate
   - composer install --dev
-  - OCULAR_ENV = '5.5'
+  - OCULAR_ENV='5.5'
 
 script:
   - phpunit --coverage-text --coverage-clover=coverage.clover
