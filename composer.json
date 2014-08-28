@@ -6,7 +6,7 @@
         "aztech",
         "aztech-digital"
     ],
-    "type": "project",
+    "type": "library",
     "minimum-stability": "stable",
     "require": {
 	"php": ">= 5.4",
