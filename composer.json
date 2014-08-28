@@ -1,0 +1,29 @@
+{
+    "name": "aztech/php-skeleton-library",
+    "description": "Skeleton project for PHP libraries",
+    "license": "MIT",
+    "keywords": [
+        "event",
+        "events",
+        "dispatch",
+        "aztech",
+        "mixpanel"
+    ],
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+	"php": ">= 5.4",
+        "aztech/php-utils": "~0",
+        "psr/log": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2",
+        "squizlabs/php_codesniffer": "~1.5",
+        "vektah/bugfree-dangerzone": "~0.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
