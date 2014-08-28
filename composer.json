@@ -3,11 +3,8 @@
     "description": "Skeleton project for PHP libraries",
     "license": "MIT",
     "keywords": [
-        "event",
-        "events",
-        "dispatch",
         "aztech",
-        "mixpanel"
+        "aztech-digital"
     ],
     "type": "library",
     "minimum-stability": "stable",
