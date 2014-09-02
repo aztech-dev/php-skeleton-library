@@ -14,7 +14,7 @@ composer create-project aztech/php-skeleton-library <target-dir>
 ## Running tests, CS, etc... locally
 
 ```shell
-make test
+make test-analysys # Run make test to only run test suite
 ```
 
 ## Upload code coverage to Scrutinizer
