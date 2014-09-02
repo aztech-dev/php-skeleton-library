@@ -16,7 +16,7 @@ composer create-project aztech/php-skeleton-library <target-dir>
 Run tests and code style analyses
 
 ```shell
-make test-analysys
+make test-analysis
 ```
 
 Run tests only
