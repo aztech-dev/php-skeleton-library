@@ -13,8 +13,16 @@ composer create-project aztech/php-skeleton-library <target-dir>
 
 ## Running tests, CS, etc... locally
 
+Run tests and code style analyses
+
 ```shell
-make test-analysys # Run make test to only run test suite
+make test-analysys
+```
+
+Run tests only
+
+```shell
+make test
 ```
 
 ## Upload code coverage to Scrutinizer
@@ -27,4 +35,10 @@ export OCULAR_TOKEN='Scrutinizer API token'
 
 ```shell
 make test-upload
+```
+
+## Clean up your mess
+
+```shell
+make clean
 ```
