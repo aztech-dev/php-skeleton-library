@@ -10,3 +10,21 @@ This is my personal PHP library skeleton for use with Composer. Use it or don't,
 ```shell
 composer create-project aztech/php-skeleton-library <target-dir>
 ```
+
+## Running tests, CS, etc... locally
+
+```shell
+make test
+```
+
+## Upload code coverage to Scrutinizer
+
+To upload to private repos, you need to export an OCULAR_TOKEN env var :
+
+```shell
+export OCULAR_TOKEN='Scrutinizer API token'
+```
+
+```shell
+make test-upload
+```
