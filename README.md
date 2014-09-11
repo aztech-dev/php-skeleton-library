@@ -27,14 +27,17 @@ make test
 
 ## Upload code coverage to Scrutinizer
 
-To upload to private repos, you need to export an OCULAR_TOKEN env var :
+To upload to private repos, you need to export an OCULAR_TOKEN environment variable :
 
 ```shell
 export OCULAR_TOKEN='Scrutinizer API token'
+make test-upload
 ```
 
+Alternatively, without exporting the variable :
+
 ```shell
-make test-upload
+OCULAR_TOKEN='Scrutinizer API token' make test-upload
 ```
 
 ## Clean up your mess
