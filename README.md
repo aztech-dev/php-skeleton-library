@@ -8,7 +8,7 @@ This is my personal PHP library skeleton for use with Composer. Use it or don't,
 ## Use
 
 ```shell
-composer create-project aztech/php-skeleton-library <target-dir>
+$ composer create-project aztech/php-skeleton-library <target-dir>
 ```
 
 ## Running tests, CS, etc... locally
@@ -16,13 +16,13 @@ composer create-project aztech/php-skeleton-library <target-dir>
 Run tests and code style analyses
 
 ```shell
-make test-analysis
+$ make test-analysis
 ```
 
 Run tests only
 
 ```shell
-make test
+$ make test
 ```
 
 ## Upload code coverage to Scrutinizer
@@ -30,18 +30,18 @@ make test
 To upload to private repos, you need to export an OCULAR_TOKEN environment variable :
 
 ```shell
-export OCULAR_TOKEN='Scrutinizer API token'
-make test-upload
+$ export OCULAR_TOKEN='Scrutinizer API token'
+$ make test-upload
 ```
 
 Alternatively, without exporting the variable :
 
 ```shell
-OCULAR_TOKEN='Scrutinizer API token' make test-upload
+$ OCULAR_TOKEN='Scrutinizer API token' make test-upload
 ```
 
 ## Clean up your mess
 
 ```shell
-make clean
+$ make clean
 ```
