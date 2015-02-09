@@ -28,7 +28,7 @@ bugfree: pretest
 	vendor/bin/bugfree lint src -c bugfree.json
 
 phpcbf: pretest
-    vendor/bin/phpcbf --standard=PSR2 src
+	vendor/bin/phpcbf --standard=PSR2 src
 
 phpmd: pretest
 	vendor/bin/phpmd src/ text design,naming,cleancode,codesize,controversial,unusedcode
